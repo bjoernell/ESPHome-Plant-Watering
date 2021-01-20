@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date "2021-01-20"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U1
+U 1 1 600899FE
+P 5250 3400
+F 0 "U1" H 5250 4567 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 5250 4476 50  0000 C CNN
+F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D" H 5250 3400 50  0001 L BNN
+F 3 "" H 5250 3400 50  0001 L BNN
+F 4 "4" H 5250 3400 50  0001 L BNN "PARTREV"
+F 5 "Espressif Systems" H 5250 3400 50  0001 L BNN "MANUFACTURER"
+	1    5250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6008B1DB
+P 6450 4600
+F 0 "#PWR03" H 6450 4350 50  0001 C CNN
+F 1 "GND" H 6455 4427 50  0000 C CNN
+F 2 "" H 6450 4600 50  0001 C CNN
+F 3 "" H 6450 4600 50  0001 C CNN
+	1    6450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3100 6450 3100
+Wire Wire Line
+	6450 3100 6450 4500
+Wire Wire Line
+	6050 2500 6450 2500
+Wire Wire Line
+	6450 2500 6450 3100
+Connection ~ 6450 3100
+Wire Wire Line
+	4450 3800 4050 3800
+Wire Wire Line
+	4050 3800 4050 4500
+Wire Wire Line
+	4050 4500 6450 4500
+Connection ~ 6450 4500
+Wire Wire Line
+	6450 4500 6450 4600
+$Comp
+L power:+5V #PWR01
+U 1 1 6008F8A4
+P 4100 2300
+F 0 "#PWR01" H 4100 2150 50  0001 C CNN
+F 1 "+5V" H 4115 2473 50  0000 C CNN
+F 2 "" H 4100 2300 50  0001 C CNN
+F 3 "" H 4100 2300 50  0001 C CNN
+	1    4100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 60090DEA
+P 4350 2300
+F 0 "#PWR02" H 4350 2150 50  0001 C CNN
+F 1 "+3.3V" H 4365 2473 50  0000 C CNN
+F 2 "" H 4350 2300 50  0001 C CNN
+F 3 "" H 4350 2300 50  0001 C CNN
+	1    4350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2300 4350 2500
+Wire Wire Line
+	4350 2500 4450 2500
+Wire Wire Line
+	4100 2300 4100 4300
+Wire Wire Line
+	4100 4300 4450 4300
+$Sheet
+S 8200 1300 2250 1300
+U 60091C66
+F0 "transistor" 50
+F1 "transistor.sch" 50
+$EndSheet
+Text GLabel 4450 3700 0    50   Input ~ 0
+GPIO12
+Text GLabel 4450 3600 0    50   Input ~ 0
+GPIO14
+Text GLabel 4450 3500 0    50   Input ~ 0
+GPIO27
+$Sheet
+S 8200 3000 2100 1300
+U 6008EF3A
+F0 "MoistureSen" 50
+F1 "MoistureSen.sch" 50
+$EndSheet
+$Sheet
+S 8200 4700 2150 1100
+U 6009B0C3
+F0 "Input" 50
+F1 "Input.sch" 50
+$EndSheet
+$EndSCHEMATC
