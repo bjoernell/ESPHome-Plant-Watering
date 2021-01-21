@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date "2021-01-20"
 Rev ""
@@ -108,5 +108,23 @@ S 8200 4700 2150 1100
 U 6009B0C3
 F0 "Input" 50
 F1 "Input.sch" 50
+$EndSheet
+Text GLabel 4450 3100 0    50   Input ~ 0
+GPIO32
+Text GLabel 4450 3200 0    50   Input ~ 0
+GPIO33
+Text GLabel 4450 2900 0    50   Input ~ 0
+GPIO34
+$Sheet
+S 700  4700 2150 1000
+U 600A014F
+F0 "Relais" 50
+F1 "Relais.sch" 50
+$EndSheet
+$Sheet
+S 750  3050 2100 1050
+U 600B5D96
+F0 "Motor" 50
+F1 "Motor.sch" 50
 $EndSheet
 $EndSCHEMATC

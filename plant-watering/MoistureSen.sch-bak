@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -87,7 +87,7 @@ GPIO34
 Text GLabel 5000 3400 0    50   Input ~ 0
 GPIO33
 Text GLabel 6550 3400 0    50   Input ~ 0
-GPIO33
+GPIO32
 Wire Wire Line
 	2900 3100 3050 3100
 Wire Wire Line
