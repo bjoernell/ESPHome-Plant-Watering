@@ -46,25 +46,6 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 7450 3
 	1    7450 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 3150 4950 3150
-Connection ~ 6250 3150
-Wire Wire Line
-	4950 3150 4500 3150
-Wire Wire Line
-	4500 3150 4500 2800
-Connection ~ 4950 3150
-$Comp
-L power:+5V #PWR04
-U 1 1 60099612
-P 4500 2800
-F 0 "#PWR04" H 4500 2650 50  0001 C CNN
-F 1 "+5V" H 4515 2973 50  0000 C CNN
-F 2 "" H 4500 2800 50  0001 C CNN
-F 3 "" H 4500 2800 50  0001 C CNN
-	1    4500 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 600997DD
@@ -104,12 +85,45 @@ Text GLabel 5650 3350 0    50   Input ~ 0
 GPIO14
 Text GLabel 6950 3350 0    50   Input ~ 0
 GPIO27
-Wire Wire Line
-	6250 3150 7550 3150
-Text GLabel 4950 3550 3    50   Input ~ 0
+Text GLabel 4950 2880 0    50   Input ~ 0
 RelayS1
-Text GLabel 6250 3550 3    50   Input ~ 0
+Text GLabel 6250 2860 0    50   Input ~ 0
 RelayS2
-Text GLabel 7550 3550 3    50   Input ~ 0
+Text GLabel 7550 2860 0    50   Input ~ 0
 RelayS3
+Wire Wire Line
+	7550 3550 7550 3790
+Wire Wire Line
+	4610 3790 4610 3860
+Wire Wire Line
+	4950 3550 4950 3790
+Connection ~ 4950 3790
+Wire Wire Line
+	4950 3790 4610 3790
+Wire Wire Line
+	6250 3550 6250 3790
+Wire Wire Line
+	4950 3790 6250 3790
+Connection ~ 6250 3790
+Wire Wire Line
+	6250 3790 7550 3790
+$Comp
+L power:GND #PWR?
+U 1 1 600B49D6
+P 4610 3860
+F 0 "#PWR?" H 4610 3610 50  0001 C CNN
+F 1 "GND" H 4615 3687 50  0000 C CNN
+F 2 "" H 4610 3860 50  0001 C CNN
+F 3 "" H 4610 3860 50  0001 C CNN
+	1    4610 3860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2880 4950 3150
+Wire Wire Line
+	7560 2860 7560 3150
+Wire Wire Line
+	7560 3150 7550 3150
+Wire Wire Line
+	6250 3150 6250 2860
 $EndSCHEMATC

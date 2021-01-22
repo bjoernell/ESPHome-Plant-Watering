@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HJR-4102-L-05V:HJR-4102-L-05V K2
+L plant-watering-rescue:HJR-4102-L-05V-HJR-4102-L-05V K2
 U 1 1 600A0827
 P 6000 3450
+AR Path="/600A0827" Ref="K2"  Part="1" 
+AR Path="/600A014F/600A0827" Ref="K2"  Part="1" 
 F 0 "K2" H 6000 3917 50  0000 C CNN
 F 1 "HJR-4102-L-05V" H 6000 3826 50  0000 C CNN
 F 2 "HJR-4102-L-05V:RELAY_HJR-4102-L-05V" H 6000 3450 50  0001 L BNN
@@ -29,9 +31,11 @@ F 7 "Manufacturer Recommendations" H 6000 3450 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HJR-4102-L-05V:HJR-4102-L-05V K1
+L plant-watering-rescue:HJR-4102-L-05V-HJR-4102-L-05V K1
 U 1 1 600A2E74
 P 4250 3450
+AR Path="/600A2E74" Ref="K1"  Part="1" 
+AR Path="/600A014F/600A2E74" Ref="K1"  Part="1" 
 F 0 "K1" H 4250 3917 50  0000 C CNN
 F 1 "HJR-4102-L-05V" H 4250 3826 50  0000 C CNN
 F 2 "HJR-4102-L-05V:RELAY_HJR-4102-L-05V" H 4250 3450 50  0001 L BNN
@@ -44,9 +48,11 @@ F 7 "Manufacturer Recommendations" H 4250 3450 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HJR-4102-L-05V:HJR-4102-L-05V K3
+L plant-watering-rescue:HJR-4102-L-05V-HJR-4102-L-05V K3
 U 1 1 600A5240
 P 7800 3450
+AR Path="/600A5240" Ref="K3"  Part="1" 
+AR Path="/600A014F/600A5240" Ref="K3"  Part="1" 
 F 0 "K3" H 7800 3917 50  0000 C CNN
 F 1 "HJR-4102-L-05V" H 7800 3826 50  0000 C CNN
 F 2 "HJR-4102-L-05V:RELAY_HJR-4102-L-05V" H 7800 3450 50  0001 L BNN
@@ -56,33 +62,6 @@ F 5 "11.70 mm" H 7800 3450 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 F 6 "N/A" H 7800 3450 50  0001 L BNN "PARTREV"
 F 7 "Manufacturer Recommendations" H 7800 3450 50  0001 L BNN "STANDARD"
 	1    7800 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 3650 3850 4050
-Wire Wire Line
-	5600 3650 5600 4050
-Wire Wire Line
-	5600 4050 3850 4050
-Wire Wire Line
-	7400 3650 7400 4050
-Wire Wire Line
-	7400 4050 5600 4050
-Connection ~ 5600 4050
-Wire Wire Line
-	3850 4050 3600 4050
-Wire Wire Line
-	3600 4050 3600 4100
-Connection ~ 3850 4050
-$Comp
-L power:GND #PWR0105
-U 1 1 600A6335
-P 3600 4100
-F 0 "#PWR0105" H 3600 3850 50  0001 C CNN
-F 1 "GND" H 3605 3927 50  0000 C CNN
-F 2 "" H 3600 4100 50  0001 C CNN
-F 3 "" H 3600 4100 50  0001 C CNN
-	1    3600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,32 +80,32 @@ Wire Wire Line
 Wire Wire Line
 	8300 3450 8300 2750
 Wire Wire Line
-	8300 2750 6500 2750
+	8300 2750 7250 2750
 Wire Wire Line
 	6400 3450 6500 3450
 Wire Wire Line
 	6500 3450 6500 2750
 Connection ~ 6500 2750
 Wire Wire Line
-	6500 2750 4750 2750
+	6500 2750 5500 2750
 Wire Wire Line
 	4650 3450 4750 3450
 Wire Wire Line
 	4750 3450 4750 2750
 Connection ~ 4750 2750
 Wire Wire Line
-	4750 2750 3600 2750
+	4750 2750 3750 2750
 Text GLabel 4650 3650 2    50   Input ~ 0
 M1
 Text GLabel 6400 3650 2    50   Input ~ 0
 M2
 Text GLabel 8200 3650 2    50   Input ~ 0
 M3
-Text GLabel 3650 3250 0    50   Input ~ 0
+Text GLabel 3750 3650 0    50   Input ~ 0
 RelayS1
-Text GLabel 5400 3250 0    50   Input ~ 0
+Text GLabel 5500 3650 0    50   Input ~ 0
 RelayS2
-Text GLabel 7200 3250 0    50   Input ~ 0
+Text GLabel 7250 3650 0    50   Input ~ 0
 RelayS3
 $Comp
 L Device:D D1
@@ -162,39 +141,45 @@ F 3 "~" H 7250 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3650 3250 3750 3250
-Wire Wire Line
 	3750 3300 3750 3250
-Connection ~ 3750 3250
 Wire Wire Line
 	3750 3250 3850 3250
 Wire Wire Line
 	3750 3600 3750 3650
 Wire Wire Line
 	3750 3650 3850 3650
-Connection ~ 3850 3650
 Wire Wire Line
 	5500 3600 5500 3650
 Wire Wire Line
 	5500 3650 5600 3650
-Connection ~ 5600 3650
 Wire Wire Line
 	5600 3250 5500 3250
 Wire Wire Line
 	5500 3300 5500 3250
-Connection ~ 5500 3250
-Wire Wire Line
-	5500 3250 5400 3250
-Wire Wire Line
-	7200 3250 7250 3250
 Wire Wire Line
 	7250 3250 7250 3300
-Connection ~ 7250 3250
 Wire Wire Line
 	7250 3250 7400 3250
 Wire Wire Line
 	7250 3600 7250 3650
 Wire Wire Line
 	7250 3650 7400 3650
-Connection ~ 7400 3650
+Wire Wire Line
+	3750 3250 3750 2750
+Connection ~ 3750 3250
+Connection ~ 3750 2750
+Wire Wire Line
+	3750 2750 3600 2750
+Wire Wire Line
+	5500 3250 5500 2750
+Connection ~ 5500 3250
+Connection ~ 5500 2750
+Wire Wire Line
+	5500 2750 4750 2750
+Wire Wire Line
+	7250 3250 7250 2750
+Connection ~ 7250 3250
+Connection ~ 7250 2750
+Wire Wire Line
+	7250 2750 6500 2750
 $EndSCHEMATC
