@@ -1,4 +1,4 @@
-294781952870155
+296398528881071
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -31289,6 +31289,13 @@ powermite3
 0
 0
 0
+SRD-05VDC-SL-C
+RELAY_SRD-05VDC-SL-C
+
+
+0
+5
+5
 Socket_Strips
 Socket_Strip_Angled_1x01_Pitch2.00mm
 
