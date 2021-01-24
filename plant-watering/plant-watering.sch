@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date "2021-01-20"
 Rev ""
@@ -93,8 +93,8 @@ F1 "transistor.sch" 50
 $EndSheet
 Text GLabel 4450 3700 0    50   Input ~ 0
 GPIO12
-Text GLabel 4450 3600 0    50   Input ~ 0
-GPIO14
+Text GLabel 4450 3900 0    50   Input ~ 0
+GPIO13
 Text GLabel 4450 3500 0    50   Input ~ 0
 GPIO27
 $Sheet
@@ -127,4 +127,20 @@ U 600B5D96
 F0 "Motor" 50
 F1 "Motor.sch" 50
 $EndSheet
+$Sheet
+S 700  6100 2150 900 
+U 600DE063
+F0 "UltrasonicSen" 50
+F1 "UltrasonicSen.sch" 50
+$EndSheet
+Text GLabel 6050 3500 2    50   Input ~ 0
+GPIO17
+Text GLabel 6050 3600 2    50   Input ~ 0
+GPIO16
+Text GLabel 6050 2700 2    50   Input ~ 0
+GPIO22
+Text GLabel 6050 3000 2    50   Input ~ 0
+GPIO21
+Text GLabel 4450 3000 0    50   Input ~ 0
+GPIO35
 $EndSCHEMATC
