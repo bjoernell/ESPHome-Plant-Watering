@@ -89,7 +89,7 @@ Text GLabel 4950 2880 0    50   Input ~ 0
 RelayS1
 Text GLabel 6250 2860 0    50   Input ~ 0
 RelayS2
-Text GLabel 7550 2860 0    50   Input ~ 0
+Text GLabel 7550 2850 0    50   Input ~ 0
 RelayS3
 Wire Wire Line
 	7550 3550 7550 3790
@@ -121,9 +121,7 @@ $EndComp
 Wire Wire Line
 	4950 2880 4950 3150
 Wire Wire Line
-	7560 2860 7560 3150
-Wire Wire Line
-	7560 3150 7550 3150
-Wire Wire Line
 	6250 3150 6250 2860
+Wire Wire Line
+	7550 2850 7550 3150
 $EndSCHEMATC
