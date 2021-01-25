@@ -19,7 +19,7 @@ U 1 1 600920C5
 P 5600 3570
 F 0 "Q2" H 5791 3616 50  0000 L CNN
 F 1 "BC337" H 5791 3525 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5800 3495 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5800 3495 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 5600 3570 50  0001 L CNN
 	1    5600 3570
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 60094894
 P 4300 3570
 F 0 "Q1" H 4491 3616 50  0000 L CNN
 F 1 "BC337" H 4491 3525 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 4500 3495 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4500 3495 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 4300 3570 50  0001 L CNN
 	1    4300 3570
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 60097816
 P 6900 3570
 F 0 "Q3" H 7091 3616 50  0000 L CNN
 F 1 "BC337" H 7091 3525 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 7100 3495 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7100 3495 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6900 3570 50  0001 L CNN
 	1    6900 3570
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 600997DD
 P 3950 3570
 F 0 "R1" V 4157 3570 50  0000 C CNN
 F 1 "5k" V 4066 3570 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3880 3570 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3880 3570 50  0001 C CNN
 F 3 "~" H 3950 3570 50  0001 C CNN
 	1    3950 3570
 	0    -1   -1   0   
@@ -63,7 +63,7 @@ U 1 1 6009B0BD
 P 5250 3570
 F 0 "R2" V 5457 3570 50  0000 C CNN
 F 1 "5k" V 5366 3570 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 5180 3570 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 5180 3570 50  0001 C CNN
 F 3 "~" H 5250 3570 50  0001 C CNN
 	1    5250 3570
 	0    -1   -1   0   
@@ -74,7 +74,7 @@ U 1 1 6009B7E0
 P 6550 3570
 F 0 "R3" V 6757 3570 50  0000 C CNN
 F 1 "5k" V 6666 3570 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 6480 3570 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 6480 3570 50  0001 C CNN
 F 3 "~" H 6550 3570 50  0001 C CNN
 	1    6550 3570
 	0    -1   -1   0   
@@ -125,36 +125,14 @@ Wire Wire Line
 Wire Wire Line
 	7000 3070 7000 3370
 $Comp
-L Transistor_BJT:BC337 Q5
-U 1 1 600EAB81
-P 5600 4960
-F 0 "Q5" H 5791 5006 50  0000 L CNN
-F 1 "BC337" H 5791 4915 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5800 4885 50  0001 L CIN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 5600 4960 50  0001 L CNN
-	1    5600 4960
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_BJT:BC337 Q4
 U 1 1 600EAB87
 P 4300 4960
 F 0 "Q4" H 4491 5006 50  0000 L CNN
 F 1 "BC337" H 4491 4915 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 4500 4885 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4500 4885 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 4300 4960 50  0001 L CNN
 	1    4300 4960
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC337 Q6
-U 1 1 600EAB8D
-P 6900 4960
-F 0 "Q6" H 7091 5006 50  0000 L CNN
-F 1 "BC337" H 7091 4915 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 7100 4885 50  0001 L CIN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6900 4960 50  0001 L CNN
-	1    6900 4960
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -163,61 +141,21 @@ U 1 1 600EAB93
 P 3950 4960
 F 0 "R4" V 4157 4960 50  0000 C CNN
 F 1 "5k" V 4066 4960 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3880 4960 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3880 4960 50  0001 C CNN
 F 3 "~" H 3950 4960 50  0001 C CNN
 	1    3950 4960
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 600EAB99
-P 5250 4960
-F 0 "R5" V 5457 4960 50  0000 C CNN
-F 1 "5k" V 5366 4960 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 5180 4960 50  0001 C CNN
-F 3 "~" H 5250 4960 50  0001 C CNN
-	1    5250 4960
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 600EAB9F
-P 6550 4960
-F 0 "R6" V 6757 4960 50  0000 C CNN
-F 1 "5k" V 6666 4960 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 6480 4960 50  0001 C CNN
-F 3 "~" H 6550 4960 50  0001 C CNN
-	1    6550 4960
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4400 4490 0    50   Input ~ 0
 RelayS4
-Text GLabel 5700 4470 0    50   Input ~ 0
-RelayS5
-Text GLabel 7000 4460 0    50   Input ~ 0
-RelayS6
-Wire Wire Line
-	7000 5160 7000 5400
 Wire Wire Line
 	4400 5160 4400 5400
 Wire Wire Line
-	5700 5160 5700 5400
-Wire Wire Line
-	4400 5400 5700 5400
-Connection ~ 5700 5400
-Wire Wire Line
-	5700 5400 7000 5400
-Wire Wire Line
 	4400 4490 4400 4760
-Wire Wire Line
-	5700 4760 5700 4470
-Wire Wire Line
-	7000 4460 7000 4760
 Wire Wire Line
 	4400 5400 4060 5400
 Wire Wire Line
 	4060 5400 4060 5500
-Connection ~ 4400 5400
 $Comp
 L power:GND #PWR0108
 U 1 1 601385D8
@@ -231,8 +169,4 @@ F 3 "" H 4060 5500 50  0001 C CNN
 $EndComp
 Text GLabel 3800 4960 0    50   Input ~ 0
 GPIO16
-Text GLabel 5100 4960 0    50   Input ~ 0
-GPIO22
-Text GLabel 6400 4960 0    50   Input ~ 0
-GPIO21
 $EndSCHEMATC
