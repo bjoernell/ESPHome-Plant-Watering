@@ -19,7 +19,7 @@ U 1 1 600DE822
 P 5000 2800
 F 0 "J14" H 5028 2776 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 5028 2685 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" H 5000 2800 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x4_P5.00" H 5000 2800 50  0001 C CNN
 F 3 "~" H 5000 2800 50  0001 C CNN
 	1    5000 2800
 	1    0    0    -1  

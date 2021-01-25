@@ -19,7 +19,7 @@ U 1 1 6008F430
 P 5200 3500
 F 0 "J2" H 5172 3432 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 5172 3523 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 5200 3500 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x3_P5.00" H 5200 3500 50  0001 C CNN
 F 3 "~" H 5200 3500 50  0001 C CNN
 	1    5200 3500
 	-1   0    0    1   
@@ -30,7 +30,7 @@ U 1 1 60091C48
 P 6750 3500
 F 0 "J3" H 6722 3432 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 6722 3523 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 6750 3500 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x3_P5.00" H 6750 3500 50  0001 C CNN
 F 3 "~" H 6750 3500 50  0001 C CNN
 	1    6750 3500
 	-1   0    0    1   
@@ -41,7 +41,7 @@ U 1 1 600933CB
 P 3650 3500
 F 0 "J1" H 3622 3432 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 3622 3523 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 3650 3500 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x3_P5.00" H 3650 3500 50  0001 C CNN
 F 3 "~" H 3650 3500 50  0001 C CNN
 	1    3650 3500
 	-1   0    0    1   
@@ -120,7 +120,7 @@ U 1 1 60148E73
 P 3650 4900
 F 0 "J8" H 3622 4832 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 3622 4923 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 3650 4900 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x3_P5.00" H 3650 4900 50  0001 C CNN
 F 3 "~" H 3650 4900 50  0001 C CNN
 	1    3650 4900
 	-1   0    0    1   

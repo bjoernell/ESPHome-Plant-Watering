@@ -30,7 +30,7 @@ U 1 1 600BDABD
 P 3800 3700
 F 0 "J4" H 3718 3375 50  0000 C CNN
 F 1 "Input" H 3718 3466 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3800 3700 50  0001 C CNN
+F 2 "TerminalBlock:ScrewTerminal_1x2_P5.00" H 3800 3700 50  0001 C CNN
 F 3 "~" H 3800 3700 50  0001 C CNN
 	1    3800 3700
 	-1   0    0    1   

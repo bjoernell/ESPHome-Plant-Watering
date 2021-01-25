@@ -1,4 +1,4 @@
-16370711361803572
+16375546163875572
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -68130,6 +68130,27 @@ Logo WEEE
 0
 0
 0
+TerminalBlock
+ScrewTerminal_1x2_P5.00
+
+
+0
+2
+2
+TerminalBlock
+ScrewTerminal_1x3_P5.00
+
+
+0
+3
+3
+TerminalBlock
+ScrewTerminal_1x4_P5.00
+
+
+0
+4
+4
 TerminalBlock
 ScrewTerminal_1x8_P5.00
 
