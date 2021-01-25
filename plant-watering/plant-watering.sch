@@ -143,4 +143,6 @@ Text GLabel 6050 3000 2    50   Input ~ 0
 GPIO21
 Text GLabel 4450 3000 0    50   Input ~ 0
 GPIO35
+Text GLabel 4450 3400 0    50   Input ~ 0
+GPIO26
 $EndSCHEMATC
