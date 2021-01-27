@@ -52,4 +52,29 @@ Wire Wire Line
 	4450 3600 4450 3550
 Wire Wire Line
 	4000 3700 4450 3700
+$Comp
+L Device:CP C?
+U 1 1 6011D7F0
+P 4820 3650
+F 0 "C?" H 4938 3696 50  0000 L CNN
+F 1 "CP" H 4938 3605 50  0000 L CNN
+F 2 "" H 4858 3500 50  0001 C CNN
+F 3 "~" H 4820 3650 50  0001 C CNN
+	1    4820 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3600 4660 3600
+Wire Wire Line
+	4660 3600 4660 3500
+Wire Wire Line
+	4660 3500 4820 3500
+Connection ~ 4450 3600
+Wire Wire Line
+	4450 3700 4660 3700
+Wire Wire Line
+	4660 3700 4660 3800
+Wire Wire Line
+	4660 3800 4820 3800
+Connection ~ 4450 3700
 $EndSCHEMATC
